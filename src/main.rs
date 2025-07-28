@@ -14,7 +14,7 @@ use macroquad::{audio, prelude::*};
 // //then pass the function to the attribute
 // #[macroquad::main(conf)]
 
-#[macroquad::main("Clicker Game")]
+#[macroquad::main("Macrew")]
 async fn main() {
     let (x, y) = (screen_width() / 2., screen_height() / 2.);
     let r = 70.;
@@ -36,7 +36,7 @@ async fn main() {
             }
         }
 
-        draw_text("Clicker Game", screen_width() / 2. - 100., 100., 50., WHITE);
+        draw_text("Macrew", screen_width() / 2. - 100., 100., 50., WHITE);
         draw_text(
             format!("Clicks: {}", score).as_str(),
             screen_width() / 2. - 100.,
